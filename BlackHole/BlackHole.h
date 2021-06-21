@@ -120,7 +120,7 @@ enum
 //    Note also that we share a single mutex across all objects to be thread safe for the same reason.
 
 
-#define                             kPlugIn_BundleID                    "audio.existential.BlackHole%ich"
+#define                             kPlugIn_BundleID                    "audio.existential.BH_A%ich"
 static pthread_mutex_t              gPlugIn_StateMutex                  = PTHREAD_MUTEX_INITIALIZER;
 static UInt32                       gPlugIn_RefCount                    = 0;
 static AudioServerPlugInHostRef     gPlugIn_Host                        = NULL;
@@ -152,9 +152,9 @@ static bool                         gMute_Input_Master_Value            = false;
 static bool                         gMute_Output_Master_Value           = false;
 
 static const UInt32                 kDataSource_NumberItems             = 1;
-#define                             kDataSource_ItemNamePattern         "BlackHole %ich"
+#define                             kDataSource_ItemNamePattern         "BH_A %ich"
 
-#define                             DEVICE_NAME                         "BlackHole %ich"
+#define                             DEVICE_NAME                         "BH_A %ich"
 #define                             MANUFACTURER_NAME                   "Existential Audio Inc."
 
 static UInt32                       gDataSource_Input_Master_Value      = 0;
