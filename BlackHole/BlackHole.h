@@ -125,12 +125,12 @@ static pthread_mutex_t              gPlugIn_StateMutex                  = PTHREA
 static UInt32                       gPlugIn_RefCount                    = 0;
 static AudioServerPlugInHostRef     gPlugIn_Host                        = NULL;
 
-#define                             kBox_UID                            "BlackHole%ich_UID"
+#define                             kBox_UID                            "BH_A_%ich_UID"
 static CFStringRef                  gBox_Name                           = NULL;
 static Boolean                      gBox_Acquired                       = true;
 
-#define                             kDevice_UID                         "BlackHole%ich_UID"
-#define                             kDevice_ModelUID                    "BlackHole%ich_ModelUID"
+#define                             kDevice_UID                         "BH_A_%ich_UID"
+#define                             kDevice_ModelUID                    "BH_A_%ich_ModelUID"
 static pthread_mutex_t              gDevice_IOMutex                     = PTHREAD_MUTEX_INITIALIZER;
 static Float64                      gDevice_SampleRate                  = 44100.0;
 static UInt64                       gDevice_IOIsRunning                 = 0;
@@ -161,7 +161,7 @@ static UInt32                       gDataSource_Input_Master_Value      = 0;
 static UInt32                       gDataSource_Output_Master_Value     = 0;
 
 #define                             LATENCY_FRAME_SIZE                  0
-#define                             NUMBER_OF_CHANNELS                  16
+#define                             NUMBER_OF_CHANNELS                  2
 #define                             BITS_PER_CHANNEL                    32
 #define                             BYTES_PER_CHANNEL                   (BITS_PER_CHANNEL / 8)
 #define                             BYTES_PER_FRAME                     (NUMBER_OF_CHANNELS * BYTES_PER_CHANNEL)
