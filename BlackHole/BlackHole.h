@@ -125,12 +125,12 @@ static pthread_mutex_t              gPlugIn_StateMutex                  = PTHREA
 static UInt32                       gPlugIn_RefCount                    = 0;
 static AudioServerPlugInHostRef     gPlugIn_Host                        = NULL;
 
-#define                             kBox_UID                            "BH_B_%ich_UID"
+#define                             kBox_UID                            "BH_C_%ich_UID"
 static CFStringRef                  gBox_Name                           = NULL;
 static Boolean                      gBox_Acquired                       = true;
 
-#define                             kDevice_UID                         "BH_B_%ich_UID"
-#define                             kDevice_ModelUID                    "BH_B_%ich_ModelUID"
+#define                             kDevice_UID                         "BH_C_%ich_UID"
+#define                             kDevice_ModelUID                    "BH_C_%ich_ModelUID"
 static pthread_mutex_t              gDevice_IOMutex                     = PTHREAD_MUTEX_INITIALIZER;
 static Float64                      gDevice_SampleRate                  = 44100.0;
 static UInt64                       gDevice_IOIsRunning                 = 0;
@@ -152,9 +152,9 @@ static bool                         gMute_Input_Master_Value            = false;
 static bool                         gMute_Output_Master_Value           = false;
 
 static const UInt32                 kDataSource_NumberItems             = 1;
-#define                             kDataSource_ItemNamePattern         "BH_B %ich"
+#define                             kDataSource_ItemNamePattern         "BH_C %ich"
 
-#define                             DEVICE_NAME                         "BH_B %ich"
+#define                             DEVICE_NAME                         "BH_C %ich"
 #define                             MANUFACTURER_NAME                   "Existential Audio Inc."
 
 static UInt32                       gDataSource_Input_Master_Value      = 0;
