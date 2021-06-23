@@ -21,7 +21,7 @@
 		03FEA4BB233D27770005D277 /* BlackHole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackHole.h; sourceTree = "<group>"; };
 		2D616EF115B8C82500D598BD /* BlackHole-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BlackHole-Info.plist"; sourceTree = "<group>"; };
 		2D616EF215B8C82500D598BD /* BlackHole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BlackHole.c; sourceTree = "<group>"; };
-		2D7477A91578168D00412279 /* BlackHoleF.driver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackHoleF.driver; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7477A91578168D00412279 /* BlackHoleG.driver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackHoleG.driver; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7477AC1578168D00412279 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2D7477EC157823CF00412279 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		2DA8FA1515FEAAB000F04B50 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		2D7477AA1578168D00412279 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D7477A91578168D00412279 /* BlackHoleF.driver */,
+				2D7477A91578168D00412279 /* BlackHoleG.driver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D7477A81578168D00412279 /* BlackHoleF */ = {
+		2D7477A81578168D00412279 /* BlackHoleG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D7477B51578168D00412279 /* Build configuration list for PBXNativeTarget "BlackHoleF" */;
+			buildConfigurationList = 2D7477B51578168D00412279 /* Build configuration list for PBXNativeTarget "BlackHoleG" */;
 			buildPhases = (
 				2D7477A51578168D00412279 /* Sources */,
 				2D7477A61578168D00412279 /* Frameworks */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = BlackHoleF;
+			name = BlackHoleG;
 			productName = AudioNULLDriver;
-			productReference = 2D7477A91578168D00412279 /* BlackHoleF.driver */;
+			productReference = 2D7477A91578168D00412279 /* BlackHoleG.driver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D7477A01578162B00412279 /* Build configuration list for PBXProject "BlackHoleF" */;
+			buildConfigurationList = 2D7477A01578162B00412279 /* Build configuration list for PBXProject "BlackHoleG" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D7477A81578168D00412279 /* BlackHoleF */,
+				2D7477A81578168D00412279 /* BlackHoleG */,
 			);
 		};
 /* End PBXProject section */
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D7477A01578162B00412279 /* Build configuration list for PBXProject "BlackHoleF" */ = {
+		2D7477A01578162B00412279 /* Build configuration list for PBXProject "BlackHoleG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D7477A21578162B00412279 /* Release */,
@@ -395,7 +395,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D7477B51578168D00412279 /* Build configuration list for PBXNativeTarget "BlackHoleF" */ = {
+		2D7477B51578168D00412279 /* Build configuration list for PBXNativeTarget "BlackHoleG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D7477B61578168D00412279 /* Release */,
