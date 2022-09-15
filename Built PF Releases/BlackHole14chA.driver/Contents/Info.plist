@@ -2,26 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BuildMachineOSBuild</key>
+	<string>21G115</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>BlackHole</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>audio.existential.BlackHole</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>BlackHole</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>0.4.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>449</string>
+	<string>528</string>
 	<key>CFPlugInFactories</key>
 	<dict>
 		<key>e395c745-4eea-4d94-bb92-46224221047c</key>
@@ -34,5 +38,23 @@
 			<string>e395c745-4eea-4d94-bb92-46224221047c</string>
 		</array>
 	</dict>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>14A309</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>12.3</string>
+	<key>DTSDKBuild</key>
+	<string>21E226</string>
+	<key>DTSDKName</key>
+	<string>macosx12.3</string>
+	<key>DTXcode</key>
+	<string>1400</string>
+	<key>DTXcodeBuild</key>
+	<string>14A309</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.9</string>
 </dict>
 </plist>

@@ -155,10 +155,10 @@ struct ObjectInfo {
 #define                             kDevice2_UID                        kDriver_Name kDriver_Name_Format "_2_UID"
 #define                             kDevice_ModelUID                    kDriver_Name kDriver_Name_Format "_ModelUID"
 #else
-#define                             kBox_UID                            kDriver_Name "_UID"
-#define                             kDevice_UID                         kDriver_Name "_UID"
-#define                             kDevice2_UID                        kDriver_Name "_2_UID"
-#define                             kDevice_ModelUID                    kDriver_Name "_ModelUID"
+#define                             kBox_UID                            kDriver_Name "BlackHole14ch_UID"
+#define                             kDevice_UID                         kDriver_Name "BlackHole14ch_UID"
+#define                             kDevice2_UID                        kDriver_Name "BlackHole14ch_2_UID"
+#define                             kDevice_ModelUID                    kDriver_Name "BlackHole14ch_ModelUID"
 #endif
 
 #ifndef kDevice_Name
@@ -204,7 +204,7 @@ struct ObjectInfo {
 #define                             kLatency_Frame_Size                 0
 
 #ifndef kNumber_Of_Channels
-#define                             kNumber_Of_Channels                 2
+#define                             kNumber_Of_Channels                 14
 #endif
 
 static pthread_mutex_t              gPlugIn_StateMutex                  = PTHREAD_MUTEX_INITIALIZER;
